@@ -19,7 +19,7 @@ setup(name="pipelinewise-target-s3-csv",
       py_modules=["target_s3_csv"],
       install_requires=[
           'pipelinewise-singer-python==1.*',
-          'inflection==0.5.1',
+          'inflection==0.15.0',
           'boto3==1.9.201',
       ],
       extras_require={
